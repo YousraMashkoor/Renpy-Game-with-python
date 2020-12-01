@@ -235,6 +235,7 @@ style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
 
 
+
 ## Quick Menu screen ###########################################################
 ##
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
@@ -359,7 +360,7 @@ screen main_menu():
 
     style_prefix "main_menu"
 
-    add gui.main_menu_background
+    add gui.main_menu_background at bounce
 
     ## This empty frame darkens the main menu.
     frame:
@@ -422,7 +423,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     style_prefix "game_menu"
 
     if main_menu:
-        add gui.main_menu_background
+        add gui.main_menu_background at bounce
     else:
         add gui.game_menu_background
 

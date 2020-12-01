@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 75: expected ':' not found.
-    "{s}Pick up the letter{/s}" + curr_mem if (mem_used == 1 or curr_mem==2): 
-                                ^
+File "game/screens.rpy", line 363: u'show' is not a keyword argument or valid child for the screen statement.
+    show sparkt at bounce
+        ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Nov 28 20:50:35 2020
+Sun Nov 29 23:12:53 2020
